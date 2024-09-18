@@ -1,0 +1,128 @@
+[
+  {
+    "objectID": "slides/slides.html#lorem-ipsum",
+    "href": "slides/slides.html#lorem-ipsum",
+    "title": "an Example of slides",
+    "section": "Lorem ipsum",
+    "text": "Lorem ipsum\nLorem ipsum odor amet, consectetuer adipiscing elit."
+  },
+  {
+    "objectID": "slides/slides.html#image1",
+    "href": "slides/slides.html#image1",
+    "title": "an Example of slides",
+    "section": "image1",
+    "text": "image1"
+  },
+  {
+    "objectID": "slides/slides.html#image2",
+    "href": "slides/slides.html#image2",
+    "title": "an Example of slides",
+    "section": "image2",
+    "text": "image2"
+  },
+  {
+    "objectID": "slides/slides.html#plot",
+    "href": "slides/slides.html#plot",
+    "title": "an Example of slides",
+    "section": "plot",
+    "text": "plot\n%matplotlib inline\nimport matplotlib.pyplot as plt\nimport numpy as np\n\nx = np.linspace(0, 10, 100)\ny = np.cos(x)\n\nplt.plot(x, y)\nplt.xlabel('x')\nplt.ylabel('y')\nplt.title('Simple Plot')\nplt.grid(True)\nplt.show()"
+  },
+  {
+    "objectID": "slides/slides.html#citation",
+    "href": "slides/slides.html#citation",
+    "title": "an Example of slides",
+    "section": "citation",
+    "text": "citation\nAccording to (Baltagi and Baltagi 2008).\n\n\n\n\n\n\n\n\nBaltagi, Badi Hani, and Badi H Baltagi. 2008. Econometric Analysis of Panel Data. Vol. 4. Springer."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\n\nimport matplotlib.pyplot as plt\nx = [1, 2, 3, 4, 5]\ny = [9, 18, 36, 72, 144]\nplt.plot(x, y)\nplt.title(\"Line Plot\")\nplt.xlabel(\"X\")\nplt.ylabel(\"Y\")\nplt.show()\n\n\n\n\n\n\n\n\n\n\nUt enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.\n\n\nDuis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+  },
+  {
+    "objectID": "about.html#h2",
+    "href": "about.html#h2",
+    "title": "About",
+    "section": "",
+    "text": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.\n\n\nDuis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+  },
+  {
+    "objectID": "index.html#two-column-layout",
+    "href": "index.html#two-column-layout",
+    "title": "simple_quarto_website",
+    "section": "two-column layout",
+    "text": "two-column layout\n\n\n\nColumn 1: Porttitor neque lectus auctor.\n12345\n\n\nColumn 2: Felis cubilia dolor vestibulum.\n67890\n\n\n\nBulleted List\n\n\nItem 1: Consectetur volutpat feugiat tincidunt nisi euismod nec ipsum volutpat.\n\n\nItem 2: Felis senectus ullamcorper nam id litora in erat molestie?\n\n\nItem 3: Placerat platea sit felis penatibus ridiculus."
+  },
+  {
+    "objectID": "index.html#markdown-table",
+    "href": "index.html#markdown-table",
+    "title": "simple_quarto_website",
+    "section": "Markdown Table",
+    "text": "Markdown Table\n\n\n\nA\nB\n\n\n\n\n458562\n667356\n\n\nABCDE\nRTGHNV"
+  },
+  {
+    "objectID": "index.html#inline-latex-equation",
+    "href": "index.html#inline-latex-equation",
+    "title": "simple_quarto_website",
+    "section": "Inline LaTeX Equation",
+    "text": "Inline LaTeX Equation\n\n\\(\\Pr(T^+) = Pr(T^+ \\mid D)Pr(D) + Pr(T^+ \\mid D)Pr(D^c)=(0.88×0.25)+(0.10×0.75)=0.295\\)"
+  },
+  {
+    "objectID": "index.html#block-latex-equation",
+    "href": "index.html#block-latex-equation",
+    "title": "simple_quarto_website",
+    "section": "Block LaTeX Equation",
+    "text": "Block LaTeX Equation\n\\[\n\\text{Likelihood of disease} = \\frac{\\Pr(D \\mid T^+)}{\\Pr(D)} = \\frac{0.7458}{0.25} = 2.9832\n\\]"
+  },
+  {
+    "objectID": "index.html#footnote",
+    "href": "index.html#footnote",
+    "title": "simple_quarto_website",
+    "section": "Footnote",
+    "text": "Footnote\nHi, here is a reference to a footnote.1"
+  },
+  {
+    "objectID": "index.html#quote",
+    "href": "index.html#quote",
+    "title": "simple_quarto_website",
+    "section": "Quote",
+    "text": "Quote\n\n\nQuote is here."
+  },
+  {
+    "objectID": "index.html#embedded-images",
+    "href": "index.html#embedded-images",
+    "title": "simple_quarto_website",
+    "section": "Embedded Images",
+    "text": "Embedded Images"
+  },
+  {
+    "objectID": "index.html#embedded-video",
+    "href": "index.html#embedded-video",
+    "title": "simple_quarto_website",
+    "section": "Embedded Video",
+    "text": "Embedded Video\n\nVideo example:"
+  },
+  {
+    "objectID": "index.html#mermaid-diagram",
+    "href": "index.html#mermaid-diagram",
+    "title": "simple_quarto_website",
+    "section": "Mermaid Diagram",
+    "text": "Mermaid Diagram\n\n\n\n\n\nsequenceDiagram\n  participant AAA\n  participant BBB\n  participant CCC\n  AAA-&gt;&gt;CCC: How's you doing?\n  loop mobiusband\n    CCC-&gt;&gt;CCC: Help!\n  end\n  Note right of CCC: Escape&lt;br/&gt;Great!\n  CCC--&gt;&gt;AAA: Great!\n  CCC-&gt;&gt;BBB: Great!\n  BBB--&gt;&gt;CCC: Great!"
+  },
+  {
+    "objectID": "index.html#instance-of-the-citations",
+    "href": "index.html#instance-of-the-citations",
+    "title": "simple_quarto_website",
+    "section": "Instance of the Citations",
+    "text": "Instance of the Citations\n\nAccording to (Baltagi and Baltagi 2008) and (Lewis-Beck and Lewis-Beck 2015)\n\n\n\nBaltagi, Badi Hani, and Badi H Baltagi. 2008. Econometric Analysis of Panel Data. Vol. 4. Springer.\n\n\nLewis-Beck, Colin, and Michael Lewis-Beck. 2015. Applied Regression: An Introduction. Vol. 22. Sage publications."
+  },
+  {
+    "objectID": "index.html#footnotes",
+    "href": "index.html#footnotes",
+    "title": "simple_quarto_website",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nThis is the footnote content.↩︎"
+  }
+]

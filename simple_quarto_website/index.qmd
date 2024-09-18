@@ -1,0 +1,100 @@
+---
+title: "simple_quarto_website"
+---
+---
+title: "simple_quarto_website"
+toc: true
+toc-depth: 3
+bibliography: reference.bib
+---
+<img src="images/image1.png" alt="Image 1" style="max-width: 100%; height: auto;">
+
+# lorem ipsum
+
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+## two-column layout
+
+<!-- Using HTML tags to create a two-column layout -->
+<div style="display: flex;">
+  <div style="flex: 1; padding: 10px;">
+    Column 1: Porttitor neque lectus auctor.
+    12345
+  </div>
+  <div style="flex: 1; padding: 10px;">
+    Column 2: Felis cubilia dolor vestibulum.
+    67890
+  </div>
+</div>
+
+### Bulleted List
+
+<ul>
+  <li>Item 1: Consectetur volutpat feugiat tincidunt nisi euismod nec ipsum volutpat.</li>
+  <li>Item 2: Felis senectus ullamcorper nam id litora in erat molestie?</li>
+  <li>Item 3: Placerat platea sit felis penatibus ridiculus.</li>
+</ul>
+
+
+## Markdown Table
+
+|     A    |    B     |
+|----------|----------|
+| 458562   | 667356   |
+| ABCDE    | RTGHNV   |
+
+## Inline LaTeX Equation
+
+<p>$\Pr(T^+) = Pr(T^+ \mid D)Pr(D) + Pr(T^+ \mid D)Pr(D^c)=(0.88×0.25)+(0.10×0.75)=0.295$</p>
+
+## Block LaTeX Equation
+
+$$
+\text{Likelihood of disease} = \frac{\Pr(D \mid T^+)}{\Pr(D)} = \frac{0.7458}{0.25} = 2.9832
+$$
+
+## Footnote
+
+Hi, here is a reference to a footnote.[^1]
+
+[^1]: This is the footnote content.
+
+## Quote
+
+<blockquote>
+  <p>Quote is here.</p>
+</blockquote>
+
+## Embedded Images
+
+<img src="images/image2.png" alt="Image 1" style="max-width: 100%; height: auto;">
+<img src="images/image3.png" alt="Image 2" style="max-width: 100%; height: auto;">
+
+## Embedded Video
+
+<p>Video example:</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/gY5TgD-yRPI?si=GzI6sXnGmo37kPE0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+## Mermaid Diagram
+
+```{mermaid}
+sequenceDiagram
+  participant AAA
+  participant BBB
+  participant CCC
+  AAA->>CCC: How's you doing?
+  loop mobiusband
+    CCC->>CCC: Help!
+  end
+  Note right of CCC: Escape<br/>Great!
+  CCC-->>AAA: Great!
+  CCC->>BBB: Great!
+  BBB-->>CCC: Great!
+```
+
+## Instance of the Citations
+
+<p>According to [@baltagi2008econometric] and [@lewis2015applied]</p>
+
+::: {#refs}
+:::
